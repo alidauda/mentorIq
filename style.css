@@ -1,0 +1,280 @@
+@font-face {
+    font-family: 'HankenGrotesk';
+    src: url('assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Bold2";
+    src: url('assets/fonts/static/HankenGrotesk-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ExtraBold";
+    src: url('assets/fonts/static/HankenGrotesk-ExtraBold.ttf');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Medium";
+    src: url('assets/fonts/static/HankenGrotesk-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+
+
+
+
+
+
+
+}
+
+
+
+.section1 {
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: grid;
+    text-align: center;
+    max-height: 55vh;
+    padding: 10px;
+    place-content: center;
+    border-radius: 0 0 20px 20px;
+
+}
+
+.circle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    display: grid;
+    place-content: center;
+    margin: 0 auto;
+
+
+
+}
+
+.circle h1 {
+    font-family: 'ExtraBold', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.section1 h3 {
+    font-family: "Bold2", sans-serif;
+    font-weight: bold;
+}
+
+.circle p {
+    margin: 0;
+    padding: 0;
+}
+
+.section2 {
+
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+
+}
+
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icon-container {
+    display: flex;
+    gap: 8px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    padding: 2px 10px;
+
+    border-radius: 10px;
+}
+
+.section2 p {
+    font-size: 14px;
+    padding: 0;
+    font-family: 'Medium', sans-serif;
+    font-weight: normal;
+}
+
+.text1 {
+    color: hsl(0, 100%, 67%)
+}
+
+.text2 {
+    color: hsl(34, 97%, 64%)
+}
+
+.text3 {
+    color: hsl(166, 100%, 37%);
+}
+
+.text4 {
+    color: hsl(234, 85%, 45%)
+}
+
+.item1 {
+    background-color: hsl(0, 45%, 94%)
+}
+
+
+
+.item2 {
+    background-color: hsl(39, 45%, 94%);
+}
+
+.item3 {
+
+    background-color: hsl(166, 45%, 94%);
+}
+
+.item4 {
+    background-color: hsl(234, 45%, 94%);
+}
+
+.flex p {
+    font-family: 'Bold', sans-serif;
+    font-weight: bold;
+
+}
+
+.text-p {
+    color: hsl(0, 0%, 68%);
+}
+
+.link {
+    width: 100%;
+    font-family: 'HankenGrotesk', sans-serif;
+    font-weight: normal;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.link:hover {
+    width: 100%;
+    font-family: 'HankenGrotesk', sans-serif;
+    font-weight: normal;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+p {
+    font-size: 18px;
+
+    font-family: 'HankenGrotesk', sans-serif;
+    font-weight: normal;
+    color: hsl(241, 100%, 89%)
+}
+
+span {
+    color: hsl(224, 30%, 27%);
+    font-family: 'ExtraBold', sans-serif;
+}
+
+h4 {
+    color: hsl(224, 30%, 27%);
+    font-family: 'ExtraBold', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    color: hsl(0, 0%, 100%);
+
+}
+
+@media only screen and (min-width: 1440px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+        width: auto;
+        height: 100dvh;
+        display: grid;
+        place-content: center;
+
+
+    }
+
+    .container {
+
+        display: grid;
+        grid-auto-flow: column;
+        border-radius: 10px 0px 10px 0;
+        box-shadow: 1px 1px hsl(221, 100%, 96%);
+        /* Adjust this width as needed */
+
+        /* Just to visualize the container */
+    }
+
+    .section1 {
+        background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+        display: grid;
+        text-align: center;
+        width: 42vh;
+        padding: 20px;
+        place-content: center;
+        border-radius: 20px;
+
+    }
+
+    .section2 {
+        gap: 15px;
+        width: 42vh;
+    }
+
+    .wrapper {
+
+        gap: 10px;
+    }
+}
